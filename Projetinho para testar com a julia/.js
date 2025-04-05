@@ -1,4 +1,4 @@
-//programa precisa comecar na casa 1
+function jogar(){
     rodada = 1;
     if (pergunta <= 0 || pergunta >= 3){
         alert("Você precisa escolher um número entre 1 e 3");}
@@ -38,7 +38,4 @@
     
     if (rodada == 3){
         alert("Você ganhou!");}
-    
-    
-    function jogar(){
-    }
+}
