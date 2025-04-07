@@ -1,4 +1,5 @@
-function jogar(){rodada = 1;
+function jogar(){
+    rodada = 1;
 
 while (rodada <= 3) {
     console.log("Rodada " + rodada);
