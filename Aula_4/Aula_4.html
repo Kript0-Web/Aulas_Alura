@@ -4,11 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Força ou Queda</title>
-  <link rel="stylesheet" href="style.css" /> <!-- Vincula o CSS -->
+  <link rel="stylesheet" href="Aula_4.css" /> <!-- Vincula o CSS -->
 </head>
 <body>
   <div class="logo">
-    <img src="https://i.postimg.cc/SshdLPSj/image.jpg" alt="Logo da Imersão Dev" />
   </div>
 
   <div class="titulo">
@@ -17,15 +16,17 @@
 
   <main class="conteudo-jogo">
     <div id="container">
-      <h2>Escolha 3 jogadores para seu time:</h2>
+      <div class="content"></div>
+      <h2>Escolha 3 jogadores de street fighter para seu time:</h2>
 
       <p id="informacoesJogador" class="resultado"></p>
       <p id="informacoesComputador" class="resultado"></p>
       <button id="resultadoBtn" style="display:none;">Ver Resultado</button>
       <h1 id="resultadoFinal" class="resultado"></h1>
+      <button onclick="conversor()">Bora jogar!</button>
     </div> <!-- Fechando div container -->
   </main>
 
-  <script src="script.js" async></script> <!-- Vincula o JavaScript -->
+  <script src="Aula_4.js" async></script> <!-- Vincula o JavaScript -->
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-    background: url("https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg") no-repeat center
+    background: url("https://i.postimg.cc/SshdLPSj/image.jpg") no-repeat center
       center fixed;
     background-size: cover;
     font-family: "Gabarito", sans-serif;
@@ -36,16 +36,16 @@ body {
     color: white;
   }
   
-  button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    background: #ff1b7b;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
+ /* Button Styles */
+ button {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
   button:hover {
     background: #19caca;
   }

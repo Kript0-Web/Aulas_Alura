@@ -1,10 +1,10 @@
-let Herois = ["", "", ""];
+function conversor(){let Herois = ["", "", ""];
 let Viloes = ["", "", ""];
 
 let Forca_herois = 0;
 let forca_viloes = 0;
 
-alert("O array herois está vazio no início.");
+alert("Você precisa escolher 3 personagens de street fighter.");
 
 for (let i = 0; i < 3; i++) {
   let escolha_herois = prompt("Digite o nome do personagem " + (i + 1) + ":");
@@ -30,4 +30,5 @@ if (Forca_herois > forca_viloes) {
   alert("Você perdeu essa batalha. A força dos inimigos era: " + forca_viloes);
 } else {
   alert("Algo inesperado aconteceu, vocês empataram.");
+}
 }
